@@ -1,0 +1,131 @@
+$sc:25;
+html{
+  width: 100%;
+  height: 100%;
+  body{
+    margin: 0;
+    @extend  html;
+    div{
+      width: 100%;
+      img{
+        width: 375/$sc+rem;
+      }
+    }
+    .text{
+      h1{
+        margin: 0;
+        text-align: center;
+        font-size: 25/$sc+rem;
+      }
+      p{
+
+        margin-left: 10/$sc+rem;
+        margin-right: 10/$sc+rem;
+
+        font-size: 16/$sc+rem;
+      }
+
+    }
+    .shop{
+      ul{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-left: 10/$sc+rem;
+        li{
+          img{
+            margin-left: 10/$sc+rem;
+            width: 135/$sc+rem;
+            height: 135/$sc+rem;
+
+          }
+
+          h4{
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 10/$sc+rem;
+            margin-right: 10/$sc+rem;
+            font-size: 16/$sc+rem;
+          }
+
+
+          p{
+            margin: 0;
+            color: rgb(211,44,87);
+            s{
+              color: #cccccc;
+              font-size: 16/$sc+rem;
+            }
+          }
+
+
+        }
+
+      }
+    }
+
+  }
+}
+.join{
+  width: 100%;
+  display: flex;
+  margin-right: 10/$sc+rem;
+  span{
+    margin-left: 6/$sc+rem;
+    flex: 1;
+    border:1px solid  #ffffff ;
+    border-radius:8%;
+    text-align: center;
+    font-size: 14/$sc+rem;
+    color: #ffffff;
+    padding: 10/$sc+rem;
+    &:nth-child(1){
+      background: rgb(16,195,171);
+    }
+    &:nth-child(2){
+      background: rgb(219,46,91);
+    }
+  }
+}
+footer{
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+    img{
+      margin-left: 10/$sc+rem;
+      width: 46/$sc+rem !important;
+      height: 46/$sc+rem;
+  }
+}
+.bt{
+  position: fixed;
+  left: 60/$sc+rem;;
+
+  h5{
+    color: #ffffff;
+    margin: 0;
+    font-size: 14/$sc+rem;
+  }
+}
+.tq{
+  text-align: center;
+  width: 200/$sc+rem;
+  align-items: center;
+  height: 50%;
+  background: rgb(219,46,91);
+  margin: 0;
+  font-size: 18/$sc+rem;
+  margin-right:25/$sc+rem;
+  color: #ffffff;
+}
+i{
+  border-radius:50%;
+  padding:10/$sc+rem;
+  width: 20/$sc+rem;
+  height: 20/$sc+rem;
+  background: rgba(219,46,91,0.8);
+}

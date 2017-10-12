@@ -1,0 +1,97 @@
+html, html body {
+  width: 100%;
+  height: 100%; }
+  html body {
+    margin: 0; }
+    html body div {
+      width: 100%; }
+      html body div img {
+        width: 15rem; }
+    html body .text h1 {
+      margin: 0;
+      text-align: center;
+      font-size: 1rem; }
+    html body .text p {
+      margin-left: 0.4rem;
+      margin-right: 0.4rem;
+      font-size: 0.64rem; }
+    html body .shop ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      margin-left: 0.4rem; }
+      html body .shop ul li img {
+        margin-left: 0.4rem;
+        width: 5.4rem;
+        height: 5.4rem; }
+      html body .shop ul li h4 {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0.4rem;
+        margin-right: 0.4rem;
+        font-size: 0.64rem; }
+      html body .shop ul li p {
+        margin: 0;
+        color: #d32c57; }
+        html body .shop ul li p s {
+          color: #cccccc;
+          font-size: 0.64rem; }
+
+.join {
+  width: 100%;
+  display: flex;
+  margin-right: 0.4rem; }
+  .join span {
+    margin-left: 0.24rem;
+    flex: 1;
+    border: 1px solid #ffffff;
+    border-radius: 8%;
+    text-align: center;
+    font-size: 0.56rem;
+    color: #ffffff;
+    padding: 0.4rem; }
+    .join span:nth-child(1) {
+      background: #10c3ab; }
+    .join span:nth-child(2) {
+      background: #db2e5b; }
+
+footer {
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex; }
+  footer img {
+    margin-left: 0.4rem;
+    width: 1.84rem !important;
+    height: 1.84rem; }
+
+.bt {
+  position: fixed;
+  left: 2.4rem; }
+  .bt h5 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 0.56rem; }
+
+.tq {
+  text-align: center;
+  width: 8rem;
+  align-items: center;
+  height: 50%;
+  background: #db2e5b;
+  margin: 0;
+  font-size: 0.72rem;
+  margin-right: 1rem;
+  color: #ffffff; }
+
+i {
+  border-radius: 50%;
+  padding: 0.4rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: rgba(219, 46, 91, 0.8); }
+
+/*# sourceMappingURL=la.css.map */

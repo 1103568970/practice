@@ -1,0 +1,46 @@
+/*
+Error: Invalid CSS after "25": expected expression (e.g. 1px, bold), was ";"
+        on line 1 of layout
+
+1: $sc:25;
+2: html{
+3:   width: 100%;
+4:   height: 100%;
+5:   body{
+6:     margin: 0;
+
+Backtrace:
+layout:1
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/script/lexer.rb:231:in `expected!'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/script/parser.rb:761:in `assert_done'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/script/parser.rb:69:in `parse'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/script/parser.rb:228:in `parse'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/script.rb:27:in `parse'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/engine.rb:1178:in `parse_script'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/engine.rb:784:in `parse_variable'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/engine.rb:652:in `parse_line'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/engine.rb:541:in `build_tree'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/engine.rb:560:in `block in append_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/engine.rb:559:in `each'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/engine.rb:559:in `append_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/engine.rb:418:in `_to_tree'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/engine.rb:390:in `_render_with_sourcemap'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/engine.rb:308:in `render_with_sourcemap'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.2/bin/scss:13:in `<top (required)>'
+C:/Ruby23-x64/bin/scss:22:in `load'
+C:/Ruby23-x64/bin/scss:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"25\": expected expression (e.g. 1px, bold), was \";\"\A         on line 1 of layout\A \A 1: $sc:25;\A 2: html{\A 3:   width: 100%;\A 4:   height: 100%;\A 5:   body{\A 6:     margin: 0;"; }
